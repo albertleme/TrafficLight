@@ -13,6 +13,11 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+    background-color: #651F71;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .container {
     background-color: #FFEBCD;
     padding: 40px;
@@ -20,6 +25,7 @@ button {
     margin: auto;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 .traffic-light {
